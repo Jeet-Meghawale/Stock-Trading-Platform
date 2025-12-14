@@ -1,0 +1,54 @@
+
+
+button,
+.button {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.horizontal-list {
+  list-style: none;
+  /* Removes bullet points */
+  padding-left: 0;
+  /* Removes default left indentation */
+}
+
+.horizontal-list li {
+  display: inline-block;
+  /* Arranges items side-by-side */
+  /* Add padding or margin for spacing between items */
+  padding: 0 10px;
+}
+
+.horizontal-list li a {
+  text-decoration: none;
+  color: gray;
+}
+
+*{
+  font-family: serif ;
+  
+}
+a{
+  text-decoration: none;
+}
+.muted {
+  color: #9b9b9b;
+}
+
+.text-left{
+  text-align: left;
+}
+.bg-light-gray {
+    background-color: #9b9b9b32;
+}
