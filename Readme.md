@@ -53,32 +53,34 @@ JWT_SECRET=your_jwt_secret
 
 ## Project Structure
 
+```text
 project-root/
-│── backend/
-│ ├── Controllers/
-│ ├── Middlewares/
-│ ├── model/
-│ ├── Routes/
-│ ├── schemas/
-│ ├── util/
-│ ├── .env
-│ ├── index.js
-│ ├── package.json
-│ └── package-lock.json
 │
-│── dashboard/
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-│ └── package-lock.json
+├── backend/
+│   ├── Controllers/
+│   ├── Middlewares/
+│   ├── model/
+│   ├── Routes/
+│   ├── schemas/
+│   ├── util/
+│   ├── .env
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
 │
-│── frontend/
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-│ └── package-lock.json
+├── dashboard/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
 │
-│── README.md
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
+│
+└── README.md
 
 ## Usage
 
